@@ -1,5 +1,7 @@
 # Default themes for TypeDoc
 
+This is an extension of default theme. I have made a little change in order to match the plugin (typedoc-plugin-toc-group)[https://github.com/tangkunyin/typedoc-plugin-toc-group] 
+
 This module contains the default themes of TypeDoc.
 Visit http://typedoc.org/ to learn more about TypeDoc.
 
