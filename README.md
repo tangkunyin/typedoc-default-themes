@@ -2,9 +2,17 @@
 
 This is an extension for default theme. I have made a little change in order to match the plugin [typedoc-plugin-toc-group](https://github.com/tangkunyin/typedoc-plugin-toc-group)
 
+
 This module contains the default themes of TypeDoc.
 Visit http://typedoc.org/ to learn more about TypeDoc.
 
+## Usage
+
+you can specify a path to theme
+
+```
+npx typedoc --out ./typings/doc  ./typings  --module umd --theme ./node_modules/typedoc-default-themes-extension/bin/default"
+```
 
 ## Contributing
 
