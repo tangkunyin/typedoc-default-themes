@@ -131,7 +131,7 @@ module typedoc
         /**
          * Create all components beneath the given jQuery element.
          */
-        public createComponents($context:JQuery, namespace:string = 'default'):Backbone.View<any>[] {
+        public createComponents($context:JQuery, namespace:string = 'default-extension'):Backbone.View<any>[] {
             var result = [];
             _(components).forEach((c) => {
                 if (c.namespace != namespace && c.namespace != '*') {

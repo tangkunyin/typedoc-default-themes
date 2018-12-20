@@ -64,7 +64,7 @@ var typedoc;
             });
         };
         Application.prototype.createComponents = function ($context, namespace) {
-            if (namespace === void 0) { namespace = 'default'; }
+            if (namespace === void 0) { namespace = 'default-extension'; }
             var result = [];
             _(components).forEach(function (c) {
                 if (c.namespace != namespace && c.namespace != '*') {
