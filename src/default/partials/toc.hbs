@@ -1,5 +1,9 @@
 <li class="{{#if isInPath}}current{{/if}} {{cssClasses}}">
-    <a href="{{relativeURL url}}" class="tsd-kind-icon">{{{wbr title}}}</a>
+    {{#if deprecated}}
+        <a href="{{relativeURL url}}" class="tsd-kind-icon deprecated">{{{wbr title}}}</a>
+    {{else}}
+        <a href="{{relativeURL url}}" class="tsd-kind-icon">{{{wbr title}}}</a>
+    {{/if}}
     {{#if children}}
         <ul>
             {{#each children}}
